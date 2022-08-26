@@ -1,0 +1,1 @@
+from tkinter import *root = Tk()with open("jj.txt", "r") as f:    for line in f:        Label(root, text=f.read()).pack()root.mainloop()
